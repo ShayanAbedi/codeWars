@@ -4,7 +4,7 @@ function accum(s) {
   //iterate over the array of characters
   //and pass them one-by-one to 'repeat' function
   for (let i = 0; i < ch.length; i++) {
-    let newCh = repeat(ch[i], i);
+    let newCh = repeat(ch[i], i); //there is also a 'repeat' built-in function
     ch[i] = newCh;
   }
   return ch.join("-");
